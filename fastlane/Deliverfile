@@ -40,10 +40,10 @@ copyright "123 Felix Krause"
 automatic_release true
 
 app_review_information({
-  first_name: "dennis",
-  last_name: "last",
+  first_name: "Amund",
+  last_name: "Tveit",
   phone_number: "123123",
-  email_address: "krausefx123123@gmail.com",
+  email_address: "amund@memkite.com",
   demo_user: "demo user",
   demo_password: "demo pass",
   notes: "such notes

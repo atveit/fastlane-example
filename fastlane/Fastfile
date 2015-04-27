@@ -7,7 +7,7 @@
 
 before_all do
   # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
-  ENV['SIGH_TEAM_ID'] = 'Q2CBPJ58CC'
+  ENV['SIGH_TEAM_ID'] = '5L92A5ZTU9'
 
   # sh "./customShellScript.sh"
 
@@ -24,13 +24,13 @@ lane :beta do
   sigh :adhoc
 
   produce({
-    produce_username: 'felix@sunapps.net',
-    produce_app_identifier: 'net.sunapps.177',
-    produce_app_name: 'felix',
-    produce_language: 'German',
+    produce_username: 'amund@memkite.com',
+    produce_app_identifier: 'com.memkite.fastlane',
+    produce_app_name: 'fastlane memkite v4',
+    produce_language: 'English',
     produce_version: '1.0',
     produce_sku: 123,
-    produce_team_name: 'sunappsgmbh'
+    produce_team_name: 'Memkite AS'
   })
 
   deliver

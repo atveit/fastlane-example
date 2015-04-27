@@ -1,3 +1,3 @@
-app_identifier "com.krausefx.fastlane"
-apple_id "krausefx1@gmail.com"
+app_identifier "com.memkite.fastlane"
+apple_id "amund@memkite.com"
 team_id "Q2CBPJ58CC"
